@@ -1,4 +1,2 @@
-options timezone="Asia/Calcutta";
-
-proc setinit;run;
-proc product_status;run;
+proc options option=timezone value;
+run;
